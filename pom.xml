@@ -15,7 +15,7 @@
 
     <groupId>yulikexuan.spring</groupId>
     <artifactId>core-spring-bom</artifactId>
-    <version>2020.04.07</version>
+    <version>2020.04.08</version>
 
     <packaging>pom</packaging>
 
@@ -81,6 +81,11 @@
     </dependencyManagement>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
